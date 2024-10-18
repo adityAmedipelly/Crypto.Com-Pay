@@ -1,0 +1,16 @@
+{
+  "name": "crypto-pay-backend",
+  "version": "1.0.0",
+  "description": "Backend for Crypto.com Pay MERN project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.2.3"
+  }
+}
